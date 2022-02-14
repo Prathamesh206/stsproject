@@ -30,8 +30,8 @@ public class MultipleFileReader {
 				}
 			}
 			log.debug(multipleFileList);                                       //print the all the files
-			FileWordsCount wordsCount=new FileWordsCount();
-			wordsCount.wordsCount(multipleFileList);
+			FileWordsCount wordsCount=new FileWordsCount();                    //creating filewords count object for counting the words in the file
+			wordsCount.wordsCount(multipleFileList);                            //call the wordsCount method to count the words in the array
 			
 		}catch(NullPointerException nullpointerException) {                 
 			log.error("No files in the directory");
