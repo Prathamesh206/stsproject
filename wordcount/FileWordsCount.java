@@ -11,9 +11,6 @@ public class FileWordsCount {
 				  count=count+words.length;                               //count object for storing the to total no of count
 				  log.info(count);
 			
-//				count=0;
-
-		
 
 	}
 }
