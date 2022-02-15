@@ -35,6 +35,7 @@ public class FileOperation {
 		default:
 			log.info("Wrong input given");
 		}
+		scanner.close();
 	
 
 
