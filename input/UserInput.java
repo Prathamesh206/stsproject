@@ -55,6 +55,7 @@ public class UserInput {
 
 				}
 				log.debug(listFiles);
+				return lisfiles;
 			}
 		}
 		catch(NullPointerException nullPointerException) 
@@ -69,6 +70,6 @@ public class UserInput {
 			}
 
 		}
-		return multiFileInput();
+		return null();
 	}
 }
