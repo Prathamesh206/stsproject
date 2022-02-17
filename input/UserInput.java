@@ -51,7 +51,7 @@ public class UserInput {
 
 			for(File File2:files) {                                        //itearting each file into file object                           
 				if(File2.getName().endsWith(".txt")==true) {
-					listFiles.add(File2.getName());
+					listFiles.add(path+File2.getName());
 
 				}
 				log.debug(listFiles);
