@@ -8,7 +8,7 @@ import in.sts.stsproject.wordcount.FileWordsCount;
 public class UserInput {
 	final Logger log=Logger.getLogger(FileWordsCount.class);
 
-	public ArrayList<String> SingleFileInput(){
+	public ArrayList<String> singleFileInput(){
 		Scanner scanner=null;
 		try {
 			ArrayList< String>fileObject=new ArrayList<String>();                   //creating arraylist object 
