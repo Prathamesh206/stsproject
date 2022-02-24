@@ -8,7 +8,7 @@ public class FileInput {
 	final Logger log=Logger.getLogger(FileInput.class);
 
 	static Scanner  scanner=new Scanner(System.in); 
-	public static String getInput() {
+	public  String getInput() {
 		                        //Creating Scanner class for taking input from user
 		System.out.println("Enter 1 for Read only one file in drive");
 		System.out.println(" Enter 2 for Read all the files in drive");
